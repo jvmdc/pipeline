@@ -1,7 +1,6 @@
 module github.com/tektoncd/pipeline
 
 go 1.21
-
 require (
 	github.com/Microsoft/go-winio v0.6.2 // indirect
 	github.com/ahmetb/gen-crd-api-reference-docs v0.3.1-0.20220720053627-e327d0730470 // Waiting for https://github.com/ahmetb/gen-crd-api-reference-docs/pull/43/files to merge
@@ -14,7 +13,7 @@ require (
 	github.com/hashicorp/errwrap v1.1.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/hashicorp/golang-lru v1.0.2
-	github.com/jenkins-x/go-scm v1.14.34
+	github.com/jenkins-x/go-scm v1.14.37
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/opencontainers/image-spec v1.1.0
 	github.com/pkg/errors v0.9.1
@@ -51,7 +50,6 @@ require (
 	github.com/goccy/kpoward v0.1.0
 	github.com/google/cel-go v0.20.1
 	github.com/google/go-containerregistry/pkg/authn/k8schain v0.0.0-20240108195214-a0658aa1d0cc
-	github.com/google/go-containerregistry/pkg/authn/kubernetes v0.0.0-20240108195214-a0658aa1d0cc
 	github.com/sigstore/sigstore/pkg/signature/kms/aws v1.8.4
 	github.com/sigstore/sigstore/pkg/signature/kms/azure v1.8.4
 	github.com/sigstore/sigstore/pkg/signature/kms/gcp v1.8.4
@@ -109,6 +107,7 @@ require (
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang-jwt/jwt/v5 v5.2.1 // indirect
 	github.com/google/gnostic-models v0.6.8 // indirect
+	github.com/google/go-containerregistry/pkg/authn/kubernetes v0.0.0-20240108195214-a0658aa1d0cc // indirect
 	github.com/google/s2a-go v0.1.7 // indirect
 	github.com/googleapis/enterprise-certificate-proxy v0.3.2 // indirect
 	github.com/googleapis/gax-go/v2 v2.12.4 // indirect
